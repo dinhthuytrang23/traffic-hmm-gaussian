@@ -1,12 +1,15 @@
-# PHÂN TÍCH DỮ LIỆU GIAO THÔNG BẰNG GAUSSIAN HIDDEN MARKOV MODEL (HMM)
+# THIẾT KẾ MÔ PHỎNG VÀ ĐÁNH GIÁ HỆ THỐNG GIÁM SÁT TRẠNG THÁI GIAO THÔNG SỬ DỤNG MÔ HÌNH MARKOV ẨN VÀ APACHE KAFKA
 
 ## 1. Giới thiệu đề tài
-Đề tài này tập trung vào việc phân tích và mô hình hóa dữ liệu lưu lượng giao thông theo chuỗi thời gian bằng mô hình Gaussian Hidden Markov Model (HMM).
+Đề tài tập trung vào việc mô phỏng và đánh giá hệ thống giám sát trạng thái giao thông dựa trên dữ liệu chuỗi thời gian.
 
-Mục tiêu của nghiên cứu là xác định các trạng thái giao thông ẩn như:
+Hệ thống sử dụng mô hình Gaussian Hidden Markov Model (HMM) kết hợp với Apache Kafka để xử lý và phân tích dữ liệu, từ đó suy diễn các trạng thái giao thông ẩn như:
+
 - Tắc nghẽn thấp
 - Bình thường
 - Tắc nghẽn cao
+
+Ngoài ra, nghiên cứu cũng thực hiện so sánh với thuật toán K-Means nhằm đánh giá hiệu quả của mô hình Gaussian HMM trong bài toán phân tích trạng thái giao thông.
 
 ---
 
