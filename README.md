@@ -140,5 +140,34 @@ Quy trình thực hiện dự án được tiến hành theo các bước sau:
 - Đánh giá hiệu quả pipeline xử lý dữ liệu
 - Đánh giá hiệu năng hệ thống dựa trên dữ liệu CSV được thu thập
 
+---
 
+## 8. Kết quả đạt được
 
+Dự án đã xây dựng thành công một pipeline xử lý và phân tích dữ liệu giao thông, bao gồm các kết quả chính sau:
+
+- Hoàn thiện quy trình tiền xử lý dữ liệu từ dữ liệu thô
+- Xây dựng và triển khai mô hình HMM cho bài toán phân tích dữ liệu giao thông
+- Mô phỏng thành công quá trình xử lý dữ liệu trên tập kiểm thử
+- Triển khai pipeline streaming sử dụng Kafka với cơ chế Producer – Consumer
+- Xuất dữ liệu đầu ra dưới dạng file CSV phục vụ phân tích
+- Lưu trữ dữ liệu vào cơ sở dữ liệu SQL
+- Thực hiện đánh giá mô hình và đánh giá hiệu năng của toàn bộ hệ thống
+- Xây dựng được quy trình khép kín từ xử lý dữ liệu, huấn luyện mô hình, mô phỏng đến lưu trữ kết quả
+
+---
+
+## 9. Hướng phát triển
+
+## 9. Hướng phát triển
+
+Từ kết quả thực nghiệm và quá trình đánh giá, một số hướng cần được xem xét và nghiên cứu thêm bao gồm:
+
+- Xem xét sử dụng các bộ dữ liệu có chất lượng cao hơn nhằm nâng cao độ tin cậy của kết quả mô hình
+- Nghiên cứu thêm các phương pháp xây dựng đặc trưng khác để cải thiện khả năng biểu diễn dữ liệu
+- Việc lựa chọn các biến đặc trưng cần được thực hiện dựa trên cơ sở phân tích rõ ràng hơn thay vì chủ yếu dựa trên thực nghiệm
+- Xem xét các phương pháp tối ưu hóa và lựa chọn mô hình khác ngoài tiêu chí BIC để xác định cấu hình phù hợp
+- Cần đánh giá sâu hơn về tính hợp lý của ma trận chuyển trạng thái và khả năng phản ánh đúng đặc trưng giao thông thực tế
+- Xem xét lại cách diễn giải các trạng thái ẩn để đảm bảo phù hợp hơn với ngữ cảnh giao thông thực tế
+- Phân tích và đánh giá lại phân phối xác suất khởi tạo của mô hình nhằm xác định nguyên nhân dẫn đến hiện tượng tập trung hoàn toàn vào một trạng thái
+- Thử nghiệm thêm các cấu hình đặc trưng và số lượng trạng thái khác nhằm kiểm chứng tính ổn định của mô hình
