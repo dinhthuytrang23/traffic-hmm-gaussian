@@ -51,11 +51,11 @@ Traffic Analysis/
 ├── *.pkl               # Các mô hình đã huấn luyện được lưu trữ
 ├── database/           # Các file SQL
 └── README.md
-
+```
 ---
 
 
-## 4. Cấu trúc thư mục
+## 4. Quy trinh thực hiện
 
 Hệ thống được triển khai theo quy trình gồm các bước chính sau:
 
@@ -85,5 +85,60 @@ Hệ thống được triển khai theo quy trình gồm các bước chính sau
 
 
 ---
+
+## 6. Công nghệ sử dụng
+
+- **Python** – ngôn ngữ lập trình chính
+- **Apache Kafka** – xử lý luồng dữ liệu thời gian thực
+- **MySQL** – lưu trữ dữ liệu
+- **Pandas** – xử lý và phân tích dữ liệu
+- **NumPy** – tính toán số học
+- **Scikit-learn** – xây dựng mô hình machine learning
+- **Jupyter Notebook** – thực nghiệm và đánh giá mô hình
+
+---
+
+## 7. Cách thực hiện dự án
+
+Quy trình thực hiện dự án được tiến hành theo các bước sau:
+
+### Bước 1: Khảo sát dữ liệu đầu vào
+- Đọc tệp dữ liệu thô (raw data)
+- Khảo sát cấu trúc dữ liệu
+- Phân tích các đặc trưng ban đầu
+- Xác định các thuộc tính cần thiết cho bài toán
+
+### Bước 2: Tiền xử lý dữ liệu
+- Thực hiện tiền xử lý cơ bản
+- Lựa chọn các segment phù hợp
+- Tiếp tục tiền xử lý chuyên sâu
+- Chia dữ liệu thành tập huấn luyện và tập kiểm thử
+
+### Bước 3: Xây dựng đặc trưng và lựa chọn cấu hình mô hình
+- Sử dụng tập train để xây dựng feature
+- Thử nghiệm và lựa chọn cấu hình phù hợp cho mô hình HMM
+
+### Bước 4: Huấn luyện mô hình
+- Huấn luyện mô hình Hidden Markov Model (HMM)
+- Huấn luyện mô hình K-Means
+
+### Bước 5: Mô phỏng trên tập kiểm thử
+- Sử dụng tập test để thực hiện mô phỏng
+- Sinh dữ liệu đầu vào phục vụ pipeline streaming
+
+### Bước 6: Triển khai pipeline streaming
+- Khởi động Docker
+- Chạy Kafka Consumer trước
+- Chạy Kafka Producer sau để gửi dữ liệu vào hệ thống
+
+### Bước 7: Thu thập và lưu trữ kết quả
+- Consumer xuất dữ liệu đầu ra dưới dạng file CSV
+- Đồng thời gửi trực tiếp dữ liệu đến cơ sở dữ liệu SQL để lưu trữ
+
+### Bước 8: Đánh giá hệ thống
+- Đánh giá chất lượng mô hình
+- Đánh giá hiệu quả pipeline xử lý dữ liệu
+- Đánh giá hiệu năng hệ thống dựa trên dữ liệu CSV được thu thập
+
 
 
