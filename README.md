@@ -55,7 +55,7 @@ Traffic Analysis/
 ---
 
 
-## 4. Quy trinh thực hiện
+## 5. Quy trinh thực hiện
 
 Hệ thống được triển khai theo quy trình gồm các bước chính sau:
 
@@ -98,9 +98,9 @@ Hệ thống được triển khai theo quy trình gồm các bước chính sau
 
 ---
 
-## 7. Cách thực hiện dự án
+## 7. Cách thực hiện nghiên cứu
 
-Quy trình thực hiện dự án được tiến hành theo các bước sau:
+Quy trình thực hiện được tiến hành theo các bước sau:
 
 ### Bước 1: Khảo sát dữ liệu đầu vào
 - Đọc tệp dữ liệu thô (raw data)
@@ -156,8 +156,6 @@ Dự án đã xây dựng thành công một pipeline xử lý và phân tích d
 - Xây dựng được quy trình khép kín từ xử lý dữ liệu, huấn luyện mô hình, mô phỏng đến lưu trữ kết quả
 
 ---
-
-## 9. Hướng phát triển
 
 ## 9. Hướng phát triển
 
