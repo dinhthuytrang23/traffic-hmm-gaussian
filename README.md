@@ -172,5 +172,5 @@ Từ kết quả thực nghiệm và quá trình đánh giá, một số hướn
  ---
 
  ### Lưu ý
-Repository chỉ cung cấp dữ liệu mẫu để minh họa quy trình thực thi.
-Các file dữ liệu đầy đủ không được đính kèm do giới hạn dung lượng.
+**Repository chỉ cung cấp dữ liệu mẫu để minh họa quy trình thực thi.
+Các file dữ liệu đầy đủ không được đính kèm do giới hạn dung lượng.**
