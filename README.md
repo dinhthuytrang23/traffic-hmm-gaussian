@@ -169,3 +169,8 @@ Từ kết quả thực nghiệm và quá trình đánh giá, một số hướn
 - Xem xét lại cách diễn giải các trạng thái ẩn để đảm bảo phù hợp hơn với ngữ cảnh giao thông thực tế
 - Phân tích và đánh giá lại phân phối xác suất khởi tạo của mô hình nhằm xác định nguyên nhân dẫn đến hiện tượng tập trung hoàn toàn vào một trạng thái
 - Thử nghiệm thêm các cấu hình đặc trưng và số lượng trạng thái khác nhằm kiểm chứng tính ổn định của mô hình
+ ---
+
+ ### Lưu ý
+Repository chỉ cung cấp dữ liệu mẫu để minh họa quy trình thực thi.
+Các file dữ liệu đầy đủ không được đính kèm do giới hạn dung lượng.
