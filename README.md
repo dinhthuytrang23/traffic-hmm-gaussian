@@ -49,7 +49,7 @@ Traffic Analysis/
 ├── *.py                # Các script Kafka Producer và Consumer
 ├── *.csv               # Dữ liệu đầu vào phục vụ thực nghiệm
 ├── *.pkl               # Các mô hình đã huấn luyện được lưu trữ
-├── database/           # Các file SQL
+├── *.db                # file SQL
 └── README.md
 ```
 ---
